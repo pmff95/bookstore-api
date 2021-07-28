@@ -29,11 +29,10 @@ public class Categoria implements Serializable {
 		super();
 	}
 
-	public Categoria(Integer id, String nome, String descricao, List<Livro> livros) {
+	public Categoria(Integer id, String nome, String descricao ) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		this.livros = livros;
 		this.descricao = descricao;
 	}
 
