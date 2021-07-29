@@ -13,10 +13,10 @@ public class TestConfig {
 
 	@Autowired
 	private DBService dbService;
-	
+
 	@Bean
-	public void instanciabase() {
-		dbService.instanciaBase();
+	public void instanciaBaseDeDados() {
+		this.dbService.instanciaBasedeDados();
 	}
-	
+
 }
